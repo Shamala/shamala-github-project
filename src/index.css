@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button {
+  font-family: inherit;
+  font-style: inherit;
+  padding: 0.4rem;
+  margin: 0.25rem;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+}
+header {
+  padding: 1rem;
+}
+.searchComp {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.repoList {
+  list-style-type: none;
+}
+
+.repo {
+  padding: 0.5rem;
+  border: 1px solid #fff;
+}
